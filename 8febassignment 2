@@ -1,0 +1,11 @@
+km = int (input("Enter the  kilometers: "))
+centimeters = (km * 100000)
+print("centimeters is: ",centimeters)
+
+Enter the  kilometers: 
+5
+centimeters is:  500000
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
