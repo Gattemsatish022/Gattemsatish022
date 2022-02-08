@@ -1,0 +1,46 @@
+a=int(input('enter a value:'))
+b=int(input('enter b value:'))
+a<b
+a>b
+a>=b
+a<=b
+a==b
+a!=b
+print(a<b)
+print(a>b)
+print (a>=b)
+print(a<=b)
+print (a==b)
+print (a!=b)
+
+enter a value:
+22
+enter b value:
+44
+True
+False
+False
+True
+False
+True
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
+
+Second output
+
+enter a value:
+44
+enter b value:
+22
+False
+True
+True
+False
+False
+True
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
