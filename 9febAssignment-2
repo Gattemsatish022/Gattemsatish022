@@ -1,0 +1,14 @@
+a=int(input('enter a number:'))
+if(a%2==0):
+    print('even number:',a)
+else:
+    print('odd number:',a)
+
+Output:-
+enter a number:
+7
+odd number: 7
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
