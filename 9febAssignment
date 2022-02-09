@@ -1,0 +1,25 @@
+#Write a python program to print biggest of two numbers .
+number=int(input('enter number:'))
+if number>=2000:
+    print('BIG Number')
+else:
+    print('Small Number')
+number=int(input('enter number:'))
+if number>=2000:
+    print ('BIG Number')
+else:
+    print ('Small Number')
+
+
+Output :-
+
+enter number:
+2001
+BIG Number
+enter number:
+2002
+BIG Number
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
