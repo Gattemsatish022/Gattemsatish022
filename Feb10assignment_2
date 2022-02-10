@@ -1,0 +1,72 @@
+sno = int (input ('Enter student no: ')) 
+sname = input (' Enter student name: ') 
+sgroup =input (' Enter student group ')
+s1 = int (input (' English marks: ')) 
+s2 = int (input (' sanskriti marks: ')) 
+s3 = int (input ('AS marks:')) 
+s4 = int (input ('EE marks: ')) 
+s5 = int (input ('OB marks:')) 
+s6 = int (input ('maths marks: ')) 
+s7 = int (input ('chemistry marks:')) 
+s8 = int (input ('computers marks: ')) 
+if s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=35 and s7>=35 and s8>=35: 
+    print ('Pass'  ) 
+else:
+        print ('Fail') 
+
+
+
+Output:-
+
+Enter student no: 
+
+201177146198 
+
+Enter student name: 
+
+Gattem Satish 
+
+Enter student group 
+
+Mccs 
+
+English marks: 
+
+70 
+
+sanskriti marks: 
+
+73 
+
+AS marks:
+
+45 
+
+EE marks: 
+
+40 
+
+OB marks:
+
+41 
+
+maths marks: 
+
+74 
+
+chemistry marks:
+
+70 
+
+computers marks: 
+
+73 
+
+Pass 
+
+** Process exited - Return Code: 0 **
+
+Press Enter to exit terminal
+
+
+
