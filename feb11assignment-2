@@ -1,0 +1,48 @@
+sno=int(input('Enter sno:'))
+sname=input('Enter sname:')
+group=input('Enter group:')
+s1=int(input('Enter s1 marks:'))
+s2=int(input('Enter s1 marks:'))
+s3=int(input('Enter s3 marks:'))
+s4=int(input('Enter s4 marks:'))
+s5=int(input('Enter s5 marks:'))
+s6=int(input('Enter s6 marks:'))
+totel=s1+s2+s3+s4+s5+s6
+avg=totel/6
+if avg>91:
+    print('o')
+elif avg>81:
+    print('A')
+elif avg>71:
+    print('B')
+elif avg>61:
+    print('C')
+elif avg>51:
+    print('D')
+else:
+    print('fail')
+    
+OUTPUT:-
+Enter sno:
+201177146198
+Enter sname:
+gattem satish
+Enter group:
+MCCS
+Enter s1 marks:
+70
+Enter s1 marks:
+90
+Enter s3 marks:
+71
+Enter s4 marks:
+95
+Enter s5 marks:
+88
+Enter s6 marks:
+87
+A
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
