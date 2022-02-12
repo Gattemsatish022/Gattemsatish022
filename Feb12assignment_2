@@ -1,0 +1,23 @@
+a=int(input('enter a value:'))
+b=int(input('enter b value:'))
+if a==b:
+    print('a and b are equal')
+if a!=b:
+    print('a not equal to b')
+if a>b:
+    print('a is larger than b')
+if b>a:
+    print('b is larger than a')
+
+Output:-
+
+enter a value:
+10
+enter b value:
+20
+a not equal to b
+b is larger than a
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
