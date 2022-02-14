@@ -1,0 +1,16 @@
+n=int(input("Enter number:"))
+count=0
+while(n>0):
+    count=count+1
+    n=n//10
+print("The number of digits in the number are:",count)
+
+Output:-
+
+Enter number:
+2345
+The number of digits in the number are: 4
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
