@@ -1,0 +1,26 @@
+n=int(input('enter n value:'))
+sum=0
+for i in range (1,n+1):
+    if i%2==0:
+      sum=sum+i
+      print(sum)
+      
+print('sum of even numbers:',sum)
+
+OUTPUT:-
+enter n value:20
+2
+6
+12
+20
+30
+42
+56
+72
+90
+110
+sum of even numbers: 110
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
