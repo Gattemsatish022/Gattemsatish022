@@ -1,0 +1,27 @@
+l=[]
+n=int(input ('enter n :'))
+for i in range (n):
+    e=int (input ())
+    l. append (e)
+max=l[0]
+min=l[0]
+for i in range (1, n):
+    if l[i]>max and l[i]>min:
+        max=l[i]
+print (max, min)
+
+
+Output:-
+
+enter n :
+5
+1
+2
+3
+4
+5
+5 1
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
