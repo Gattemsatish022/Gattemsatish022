@@ -1,0 +1,22 @@
+l=[]
+n=int(input ('enter n :'))
+for i in range (n):
+    e=int (input ())
+    l. append (e)
+l.reverse() 
+print (l)
+
+Output:-
+
+
+enter n :
+4
+1
+2
+3
+4
+[4, 3, 2, 1]
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
