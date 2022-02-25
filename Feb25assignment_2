@@ -1,0 +1,25 @@
+n=int(input("enter n:")) 
+l=[] 
+t=[]  
+for i in range(n): 
+    x=int (input() )
+    l.append(x)
+x=0 
+count=0 
+for i in range(n): 
+    if l[i]>0: 
+        t.append(l[i]) 
+        X=x+1 
+        count+=1 
+print(t,"count is:",count)
+
+Output:
+
+enter n:
+5
+1
+2
+3
+4
+5
+[1, 2, 3, 4, 5] count is: 5
